@@ -62,7 +62,7 @@ function TopBar({
               <span>
                 <MdPhone />
               </span>
-              +234 7067293973
+              +234 7067293973, +234 8119473098
               
             </p>
           </div>
@@ -125,7 +125,7 @@ function TopBar({
       <div className="topBarMobile">
         <div className="topBarMobileControl">
           <div className="topBarMobileLogoContainer">
-            <img src={images["logoMobileDemo"]} alt="/" />
+            <img src={images["logoMobile"]} alt="/" />
           </div>
           <div className="topBarMobileMenu">
             {menuOpen ? (
