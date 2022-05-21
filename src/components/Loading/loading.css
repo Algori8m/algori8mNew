@@ -1,0 +1,43 @@
+.loading{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingInner{
+    width: 150px;
+    height: 150px;
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.loadingInner img{
+    width: 100%;
+}
+
+
+@keyframes loading {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .loadingInner{
+        width: 80px;
+        height: 80px;
+    }
+}

@@ -1,0 +1,291 @@
+.aboutSection{
+    width: 100%;
+    padding: 100px 20% 100px;
+    box-sizing: border-box;
+    background-color: #f3faffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.aboutSectionTitle{
+    font-size: 45px;
+    z-index: 2;
+    margin-bottom: 40px;
+}
+
+
+.aboutSectionAnimationInner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0);
+    z-index: 1;
+}
+
+
+
+
+.aboutAnime {
+    display: block;
+    width: 30px;
+    height: 10px;
+    background-color: #ffe2bb;
+    transform: skewX(20deg);
+    position: absolute;
+    top: 2px;
+    backdrop-filter: blur(3px);
+    backdrop-filter: opacity(50%);
+}
+
+.aboutAnime4{
+
+}
+
+span.aboutAnime1 {
+    left: 0%;
+    animation-name: anime1;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.aboutAnime2 {
+    width: 20px;
+    height: 20px;
+    background-color: #bbe4ff;
+    border-radius: 5px;
+    animation-name: anime2;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.aboutAnime3 {
+    top: 50%;
+    right: 50%;
+    background-color: #bbe4ff;
+    animation-name: animeGeneral;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.squareAnime4 {
+    width: 15px;
+    height: 15px;
+    border-radius: 2.5px;
+    animation-name: anime3;
+    animation-duration: 3s;
+    background-color: #bbe4ff;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes anime1 {
+    0% {
+        left: 10%;
+        top: 2px;
+    }
+
+    50% {
+        top: 50%;
+        opacity: 1;
+    }
+
+    100% {
+        left: 60%;
+        top: 250px;
+    }
+}
+
+
+
+@keyframes anime2 {
+    0% {
+        left: 90%;
+        top: 10%;
+        opacity: 0;
+        
+    }25%{
+        top: 20%;
+    }
+    50%{
+        left: 50%;
+        top: 80%;
+    }
+    100% {
+        left: 20%;
+        top: 10%;
+    }
+}
+
+
+
+@keyframes anime3 {
+    0% {
+        left: 5%;
+        top: 100%;
+        transform: rotateZ(0);
+    }
+
+    100% {
+        left: 95%;
+        top: 100%;
+        transform: rotateZ(360);
+    }
+}
+
+@keyframes animeGeneral {
+    0% {
+        transform: rotateZ(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotateZ(360deg) scale(.3);
+    }
+
+    100% {
+        transform: rotateZ(0deg) scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutSectionVision{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.aboutSectionVisionTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.aboutSectionVisionText{
+    width: 55%;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+
+.aboutSectionHistory{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutSectionHistoryText span{
+    display:block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 10px 0;
+}
+
+.aboutSectionHistoryTitle{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.aboutSectionHistoryText{
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutSectionHistoryText li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 414px) {
+
+    .aboutSection{
+        width: 100%;
+        padding: 100px 5% 100px;
+        box-sizing: border-box;
+        background-color: #f3faffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .aboutSectionTitle{
+        font-size: 35px;
+    }
+    
+    
+    .aboutSectionVisionText{
+        width: 90%;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    .aboutSectionHistoryText span{
+        display:block;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: black;
+        margin: 10px 0;
+    }
+    
+    .aboutSectionHistoryTitle{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    
+    .aboutSectionHistoryText{
+        width: 90%;
+        text-align: center;
+        line-height: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15.875mm"
+   height="15.650392mm"
+   viewBox="0 0 15.875 15.650392"
+   version="1.1"
+   id="svg38120"
+   inkscape:version="1.1.2 (1:1.1+202205011109+08b2f3d93c)"
+   sodipodi:docname="logoMobile.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview38122"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.69664703"
+     inkscape:cx="-50.240651"
+     inkscape:cy="144.26244"
+     inkscape:window-width="1920"
+     inkscape:window-height="968"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs38117" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-118.15457,-110.29122)">
+    <g
+       id="g44188-5-4-3"
+       transform="matrix(0.06567288,0,0,0.06567288,20.66785,70.2733)"
+       inkscape:export-filename="/home/user/Documents/personal/Algori8m/Algori8m Website/New/algori8m_new_web/src/assets/images/logoMobile.png"
+       inkscape:export-xdpi="250"
+       inkscape:export-ydpi="250"
+       style="display:inline"
+       inkscape:transform-center-x="-55.428222"
+       inkscape:transform-center-y="1.6277528">
+      <g
+         id="g44182-2-7-6"
+         transform="translate(61.660408,769.75612)"
+         style="fill:#ffffff;stroke:none"
+         inkscape:export-xdpi="120"
+         inkscape:export-ydpi="120">
+        <path
+           id="path44174-8-8-7"
+           style="opacity:1;fill:#006db4;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round"
+           d="m 1488.703,-107.48716 -13.1873,26.458333 h 13.4405 26.4584 26.4583 26.4583 26.4584 15.4197 l -13.5723,-26.458333 h -1.8474 -26.4584 -26.4583 -26.4583 -26.4584 z" />
+        <path
+           id="path44176-9-4-5"
+           style="opacity:1;fill:#006db4;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round"
+           d="m 1462.3289,-54.570496 -13.1868,26.458332 h 13.3558 26.4583 26.4584 5.2916 l 10.5834,-26.458332 h -15.875 -26.4584 -26.4583 z m 90.1273,0 10.5834,26.458332 h 5.2916 26.4584 26.4583 16.1049 l -13.5717,-26.458332 h -2.5332 -26.4583 -26.4584 z" />
+        <path
+           id="path44178-8-5-3"
+           style="opacity:1;fill:#006db4;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round"
+           d="m 1435.9558,-1.653831 -13.1873,26.458332 h 13.2716 26.4578 26.4583 10.5834 l 10.5833,-26.458332 h -21.1667 -26.4583 -26.4583 z m 137.6671,0 10.5833,26.458332 h 10.5834 26.4583 26.4583 16.7907 l -13.5718,-26.458332 h -3.2189 -26.4583 -26.4583 z" />
+        <path
+           id="path44180-3-0-5"
+           style="opacity:1;fill:#ff9000;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round"
+           d="m 1515.0766,-160.40382 -13.1868,26.45833 h 13.5248 26.4583 26.4583 14.734 l -13.5718,-26.45833 h -1.1622 -26.4583 -26.4583 z" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.5045px;line-height:1.25;font-family:Gontserrat;-inkscape-font-specification:'Gontserrat Bold';letter-spacing:2.38125px;fill:#000000;stroke:none;stroke-width:0.264583"
+         x="1513.1935"
+         y="847.22864"
+         id="text44186-5-3-6"
+         inkscape:export-xdpi="120"
+         inkscape:export-ydpi="120"><tspan
+           sodipodi:role="line"
+           id="tspan44184-7-6-2"
+           x="1513.1935"
+           y="847.22864"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Gontserrat;-inkscape-font-specification:'Gontserrat Bold';fill:#000000;stroke:none;stroke-width:0.264583">ALGORI8M</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+.serviceSectionWrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 100px 25%;
+    /* background-color: #f3faff; */
+    overflow: hidden;
+}
+
+.serviceSectionServices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serviceSectionService {
+    width: 250px;
+    /* height: 450px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 20px;
+    /* box-sizing: border-box; */
+    transition-duration: .2s;
+    position: relative;
+}
+
+.serviceSectionService:hover {
+    background-color: rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: 0px 50px 120px rgb(230, 230, 230);
+    border-radius: 10px;
+    border-bottom: 4px solid #f3faff;
+    border-bottom: 4px solid #ffa300;
+}
+
+
+.serviceIconWrapper {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffa300;
+    margin-bottom: 15px;
+}
+
+.serviceIconWrapper img {
+    width: 50%;
+}
+
+.serviceSectionService h4 {
+    margin-bottom: 20px;
+}
+
+.serviceText {
+    width: 95%;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 414px) {
+    .serviceSectionServices {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .serviceSectionService {
+        width: 250px;
+        /* height: 450px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px 30px;
+        /* box-sizing: border-box; */
+        transition-duration: .2s;
+        position: relative;
+    }
+    
+    .serviceSectionService:hover {
+        background-color: rgb(255, 255, 255);
+        background-color: white;    
+        box-shadow: 0px 50px 120px rgb(230, 230, 230);
+        border-radius: 10px;
+        border-bottom: 4px solid #f3faff;
+        border-bottom: 4px solid #ffa300;
+    }
+}
