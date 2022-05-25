@@ -58,11 +58,24 @@
 }
 
 .contactUsList a p{
-    color: black;
+    color:   black;
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1280px) {
+    .contactUs{
+        padding: 100px 10%;
+    }
+
+    .contactUsList li{
+        width: 180px;
+        box-sizing: border-box;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
     
     .contactUs{
         width: 100%;

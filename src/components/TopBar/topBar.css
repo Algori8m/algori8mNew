@@ -1,242 +1,251 @@
-.topBarMobile{
-    display: none;
+.topBarMobile {
+  display: none;
 }
 
 .topBarWrapper {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 0 20%;
-    width: 100%;
-    box-sizing: border-box;
-    position: absolute;
-    box-shadow: 0px 1px 5px #dae3e9;
-    position: fixed;
-    z-index: 5;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  box-shadow: 0px 1px 5px #dae3e9;
+  position: fixed;
+  z-index: 5;
 }
 
-
 .topBarUpperSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    height: 40px;
-    border-bottom: 1px solid rgb(243, 243, 243);
-    font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 40px;
+  border-bottom: 1px solid rgb(243, 243, 243);
+  font-size: 14px;
 }
 
 .topBarContactInfo {
-    display: flex;
-    width: 30%;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .topBarContactInfo p span {
-    display: inline-block;
-    margin-right: 5px;
-    transform: translateY(18%);
+  display: inline-block;
+  margin-right: 5px;
+  transform: translateY(18%);
 }
 
-
 .topBarSocialMedia {
-    display: flex;
-    width: 9%;
-    justify-content: space-between;
+  display: flex;
+  width: 9%;
+  justify-content: space-between;
 }
 
 .topBarSocialMedia a {
-    color: black;
-    font-size: 18px;
+  color: black;
+  font-size: 18px;
 }
 
 .topBarLowerSection {
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
 }
 
 .topBarLogo {
-    width: 10%;
-    height: 100%;
-    display: flex;
-    align-items: center;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .topBarLogo img {
-    width: 100%;
+  width: 100%;
 }
 
 .topBarNav {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .topBarNav ul {
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
 }
 
 .topBarNav ul li {
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-size: 12px;
-    cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
 }
 
+@media screen and (max-width: 1280px) {
+  .topBarWrapper {
+    padding: 0 10%;
+    width: 100%;
+  }
 
+
+.topBarContactInfo {
+    width: 45%;
+  }
+  
+  .topBarSocialMedia {
+    width: 12%;
+  }
+
+
+}
 
 /* MOBILE */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
+  .topBarWrapper {
+    display: none;
+  }
 
-    .topBarWrapper {
-        display: none;
-    }
+  .topBarMobile {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+  }
 
-    .topBarMobile {
-        width: 100%;
-        height: 80px;
-        background-color: white;
-        display: flex;
-        padding: 0 20px;
-        justify-content: space-between;
-        align-items: center;
-        box-sizing: border-box;
-        position: fixed;
-        z-index: 10;
-    }
+  .topBarMobileControl {
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+  }
 
-    .topBarMobileControl {
-        width: calc(100% - 30px);
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: absolute;
+  .topBarMobileLogoContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    }
+  .topBarMobileLogoContainer img {
+    width: 100%;
+  }
 
-    .topBarMobileLogoContainer {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .topBarMobileMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
 
-    .topBarMobileLogoContainer img {
-        width: 100%;
-    }
+  .topBarMobileNav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    top: 0%;
+    left: -100% !important;
+    z-index: 20;
+    transition-duration: 0.5s;
+  }
 
-    .topBarMobileMenu {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-    }
+  nav.topBarMobileNav.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    top: 0%;
+    left: 0% !important;
+    z-index: 20;
+    box-shadow: 0px 0px 6px rgb(221, 221, 221);
+  }
 
-    .topBarMobileNav{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        width: 80%;
-        height: 100vh;
-        background-color: white;
-        top: 0%;
-        left: -100% !important;
-        z-index: 20;
-        transition-duration: .5s;
-    }
+  .topBarMobileNav.active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.027);
+    visibility: visible;
+    top: 80px;
+    left: 100%;
+    z-index: 20;
+  }
 
-    nav.topBarMobileNav.active {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        width: 80%;
-        height: 100vh;
-        background-color: white;
-        top: 0%;
-        left: 0% !important;
-        z-index: 20;
-        box-shadow: 0px 0px 6px rgb(221, 221, 221);
-    }
+  .topBarMobileNav li {
+    list-style: none;
+  }
 
-    .topBarMobileNav.active::after {
-        content: "";
-        display: block;
-        position: absolute;
-        width: 80%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.027);
-        visibility: visible;
-        top: 80px;
-        left: 100%;
-        z-index: 20;
-    }
+  .topBarMobileNavList {
+    width: 100%;
+    height: 60%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-    .topBarMobileNav li {
-        list-style: none;
-    }
+  .topBarMobileNavList li {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .topBarMobileNavList li span:first-child {
+    margin-right: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+  }
 
-    .topBarMobileNavList {
-        width: 100%;
-        height: 60%;
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
+  .topBarMobileNavList li span {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+  }
 
-    .topBarMobileNavList li {
-        width: 50%;
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-    }
-    .topBarMobileNavList li span:first-child {
-        margin-right: 10px;
-        color: black;
-        font-size: 14px;
-        font-weight: 600;
-    }
+  .topBarMobileHr {
+    width: 60%;
+    margin: 40px auto 45px;
+    opacity: 0.5;
+  }
 
+  .topBarMobileSocialList {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .topBarMobileNavList li span {
-        color: black;
-        font-size: 14px;
-        font-weight: 600;
-    }
+  .topBarMobileSocialList a {
+    text-decoration: none;
+    color: black;
+  }
 
-
-    .topBarMobileHr {
-        width: 60%;
-        margin: 40px auto 45px;
-        opacity: .5;
-    }
-
-    .topBarMobileSocialList {
-        width: 50%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .topBarMobileSocialList a {
-        text-decoration: none;
-        color: black;
-    }
-
-    .topBarMobileSocialList a:active {
-        background-color: none;
-        text-decoration: none;
-    }
-
+  .topBarMobileSocialList a:active {
+    background-color: none;
+    text-decoration: none;
+  }
 }

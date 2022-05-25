@@ -1,62 +1,72 @@
-.techStackSection{
+.techStackSection {
+  width: 100%;
+  padding: 50px 20% 50px;
+  box-sizing: border-box;
+  background-color: rgb(203, 219, 230);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techStackSectionTitle {
+  margin-bottom: 40px;
+  font-size: 45px;
+}
+
+.techStackList {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.techStackList li {
+  list-style: none;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .techStackSection {
+    padding: 50px 10% 50px;
+  }
+
+  .techStackList {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .techStackSection {
     width: 100%;
-    padding: 50px 20% 50px;
+    padding: 50px 5% 50px;
     box-sizing: border-box;
     background-color: rgb(203, 219, 230);
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.techStackSectionTitle{
-    margin-bottom: 40px;
-    font-size: 45px;
-}
+  .techStackSectionTitle {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
 
-.techStackList{
-    width: 35%;
+  .techStackList {
+    width: 55%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
-}
+  }
 
-.techStackList li{
+  .techStackList li {
     list-style: none;
     font-size: 20px;
-}
-
-
-@media screen and (max-width: 414px) {
-    
-    .techStackSection{
-        width: 100%;
-        padding: 50px 5% 50px;
-        box-sizing: border-box;
-        background-color: rgb(203, 219, 230);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .techStackSectionTitle{
-        margin-bottom: 30px;
-        font-size: 35px;
-    }
-    
-    .techStackList{
-        width: 55%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .techStackList li{
-        list-style: none;
-        font-size: 20px;
-        margin: 15px;
-    }
-    
-
+    margin: 15px;
+  }
 }
