@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {
   MdClose,
-  MdEmail, 
+  MdEmail,
   MdHome,
   MdHomeRepairService,
   MdInfo,
@@ -26,25 +26,23 @@ function TopBar({
 }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
-
   const scrollToRef = (ref) => {
-    console.log(techStackSection.current)
-    if(ref.current === techStackSection.current){
-    window.scrollTo({
-      top: ref.current.offsetTop - 50,
-      left: 0,
-      behavior: 'smooth'
-    }) 
-    }else{
+    console.log(techStackSection.current);
+    if (ref.current === techStackSection.current) {
+      window.scrollTo({
+        top: ref.current.offsetTop - 50,
+        left: 0,
+        behavior: "smooth",
+      });
+    } else {
       window.scrollTo({
         top: ref.current.offsetTop,
         left: 0,
-        behavior: 'smooth'
-      })
+        behavior: "smooth",
+      });
     }
-    setMenuOpen(false)
-  }
-
+    setMenuOpen(false);
+  };
 
   return (
     <>
@@ -57,12 +55,12 @@ function TopBar({
               </span>
               algori8m@gmail.com
             </p>{" "}
-            |
+            <p> | </p>
             <p>
               <span>
                 <MdPhone />
               </span>
-              +234 8104450401              
+              +234 8104450401
             </p>
           </div>
 
@@ -143,7 +141,7 @@ function TopBar({
               <span>
                 <MdHome size={25} />
               </span>
-              <span >Home</span>
+              <span>Home</span>
             </li>
             <li onClick={() => scrollToRef(serviceSection)}>
               <span>

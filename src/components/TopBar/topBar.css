@@ -27,9 +27,13 @@
 
 .topBarContactInfo {
   display: flex;
-  width: 35%;
+  width: 55%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+
+.topBarContactInfo p{
+  margin-right: 10px;
 }
 
 .topBarContactInfo p span {
