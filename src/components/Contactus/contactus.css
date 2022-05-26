@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .contactUsTitle{
@@ -13,15 +14,17 @@
 }
 
 .contactUsList{
-    width: 100%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contactUsList li{
     list-style: none;
     width: 200px;
     padding: 40px 5px;
+    margin-bottom: 25px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -65,6 +68,10 @@
 @media screen and (max-width: 1280px) {
     .contactUs{
         padding: 100px 10%;
+    }
+
+    .contactUsList{
+        width: 50%;
     }
 
     .contactUsList li{
