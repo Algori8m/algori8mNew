@@ -2,16 +2,14 @@ import React from 'react'
 import images from '../../assets/images'
 import './previousProject.css'
 
+
 function PreviousProjects({portfolioSection}) {
-
-
 
   return (
     <section className='previousProjects' ref={portfolioSection}>
         <h2 className='previousProjectsTitle'>
             Our Previous Works
         </h2>
-
 
         <ul className='previousProjectsList'>
             <li className='previousProject'>

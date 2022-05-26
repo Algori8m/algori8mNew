@@ -27,7 +27,7 @@
 
 .topBarContactInfo {
   display: flex;
-  width: 40%;
+  width: 35%;
   align-items: center;
   justify-content: space-between;
 }
@@ -75,7 +75,7 @@
 
 .topBarNav ul {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -94,16 +94,13 @@
     width: 100%;
   }
 
-
-.topBarContactInfo {
-    width: 45%;
+  .topBarContactInfo {
+    width: 35%;
   }
-  
+
   .topBarSocialMedia {
     width: 12%;
   }
-
-
 }
 
 /* MOBILE */

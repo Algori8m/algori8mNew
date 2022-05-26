@@ -21,7 +21,7 @@ function Contactus({contactSection}) {
           <span>
             <FaWhatsapp />
           </span>
-          <p>+234 7067293973</p>
+          <p>+234 8104450401</p>
         </a>
         </li>
 
