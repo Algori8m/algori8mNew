@@ -16,7 +16,7 @@ function Contactus({contactSection}) {
           <p>algori8m@gmail.com</p>
         </li>
         <li>
-        <a href="/">
+        <a href="https://wa.me/message/6BB7JS45Y55XP1">
 
           <span>
             <FaWhatsapp />

@@ -37,7 +37,7 @@ function HeroSection({
               Boost Your Business Digital Presence & Build Loyal Customers.
             </p>
 
-            <a className="heroSectionContactLink" href="https://wa.me/message/ERBQVU7WPDLJN1">
+            <a className="heroSectionContactLink" href="https://wa.me/message/6BB7JS45Y55XP1">
             <button className="heroSectionContactButton">
             Contact Us
             </button>

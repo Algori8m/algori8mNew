@@ -67,7 +67,7 @@ function TopBar({
           </div>
 
           <div className="topBarSocialMedia">
-            <a href="https://wa.me/message/ERBQVU7WPDLJN1">
+            <a href="https://wa.me/message/6BB7JS45Y55XP1">
               <span>
                 <FaWhatsapp />
               </span>
@@ -181,7 +181,7 @@ function TopBar({
 
           <ul className="topBarMobileSocialList">
             <li>
-              <a href="https://wa.me/message/ERBQVU7WPDLJN1">
+              <a href="https://wa.me/message/6BB7JS45Y55XP1">
                 <span>
                   <FaWhatsapp size={20} />
                 </span>
