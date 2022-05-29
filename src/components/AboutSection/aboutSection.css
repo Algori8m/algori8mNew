@@ -193,6 +193,7 @@ span.aboutAnime1 {
     width: 55%;
     text-align: center;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -263,6 +264,7 @@ span.aboutAnime1 {
         width: 90%;
         text-align: center;
         line-height: 30px;
+        text-align: left;
     }
     
     .aboutSectionHistoryText span{
