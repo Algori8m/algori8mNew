@@ -24,11 +24,8 @@ function AboutSection({aboutSection}) {
           go when they need information about a product or service.
         </p>
         <p className="aboutSectionVisionText">
-          We understand this and that's why we are committed to help small businesses and freelancers
-          get to where their potential customers/clients are.
-        </p>
-        <p className="aboutSectionVisionText">
-          We help them build business websites.
+          We understand this and that's why we are committed to help
+          get to where your potential customers/clients are.
         </p>
       </div>
 

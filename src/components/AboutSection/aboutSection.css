@@ -154,34 +154,11 @@ span.aboutAnime1 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .aboutSectionVision{
     z-index: 2;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 45px;
 }
 
@@ -195,7 +172,7 @@ span.aboutAnime1 {
     text-align: center;
     line-height: 45px;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: #577386;
 }
@@ -263,13 +240,20 @@ span.aboutAnime1 {
         font-size: 35px;
     }
     
+
+.aboutSectionVision{
+    align-items: flex-start;
+}
     
     .aboutSectionVisionText{
         width: 90%;
         text-align: left;
         line-height: 45px;
         margin-bottom: 25px;
-        font-size: 22px;
+        font-size: 22p
+        <p className="aboutSectionVisionText">
+          We help them build business websites.
+        </p>x;
         font-weight: 600;
     }
     

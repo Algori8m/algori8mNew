@@ -100,11 +100,11 @@ function TopBar({
               <li onClick={() => scrollToRef(heroSection)}>
                 <span>Home</span>
               </li>
-              <li onClick={() => scrollToRef(serviceSection)}>
-                <span>Our Services</span>
-              </li>
               <li onClick={() => scrollToRef(aboutSection)}>
                 <span>About us</span>
+              </li>
+              <li onClick={() => scrollToRef(serviceSection)}>
+                <span>Our Services</span>
               </li>
               <li onClick={() => scrollToRef(techStackSection)}>
                 <span>Our Stack</span>
@@ -143,17 +143,17 @@ function TopBar({
               </span>
               <span>Home</span>
             </li>
-            <li onClick={() => scrollToRef(serviceSection)}>
-              <span>
-                <MdMiscellaneousServices size={25} />
-              </span>
-              <span>Our Services</span>
-            </li>
             <li onClick={() => scrollToRef(aboutSection)}>
               <span>
                 <MdInfo size={25} />
               </span>
               <span>About us</span>
+            </li>
+            <li onClick={() => scrollToRef(serviceSection)}>
+              <span>
+                <MdMiscellaneousServices size={25} />
+              </span>
+              <span>Our Services</span>
             </li>
             <li onClick={() => scrollToRef(techStackSection)}>
               <span>
