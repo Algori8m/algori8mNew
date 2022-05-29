@@ -12,6 +12,7 @@
 .aboutSectionTitle{
     font-size: 45px;
     z-index: 2;
+    color: #122635;
     margin-bottom: 40px;
 }
 
@@ -180,7 +181,7 @@ span.aboutAnime1 {
     z-index: 2;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 45px;
 }
 
@@ -190,10 +191,13 @@ span.aboutAnime1 {
 }
 
 .aboutSectionVisionText{
-    width: 55%;
+    width: 90%;
     text-align: center;
-    line-height: 30px;
+    line-height: 45px;
     margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #577386;
 }
 
 
@@ -262,9 +266,11 @@ span.aboutAnime1 {
     
     .aboutSectionVisionText{
         width: 90%;
-        text-align: center;
-        line-height: 30px;
         text-align: left;
+        line-height: 45px;
+        margin-bottom: 25px;
+        font-size: 22px;
+        font-weight: 600;
     }
     
     .aboutSectionHistoryText span{

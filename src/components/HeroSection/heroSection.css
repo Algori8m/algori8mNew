@@ -182,6 +182,8 @@ span.squareAnime1 {
   font-weight: 500;
   margin-bottom: 35px;
   display: flex;
+  color: #122635;
+  font-weight: 700;
 }
 
 .heroSectionContactButton {
@@ -435,7 +437,8 @@ button.heroSectionContactButton:active {
     width: 100%;
     font-size: 35px;
     line-height: 50px;
-    font-weight: 500;
+    color: #122635;
+    font-weight: 600;
   }
 
   .heroSectionContactButton {
