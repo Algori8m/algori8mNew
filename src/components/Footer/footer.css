@@ -28,6 +28,11 @@
   cursor: pointer;
 }
 
+.privacyPolicyLink{
+  text-decoration: none;
+  color: black;
+}
+
 .footerLogo img {
   width: 120px;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import images from "../../assets/images";
 import "./footer.css";
 
@@ -46,6 +47,13 @@ function Footer({
               <span onClick={() => scrollToRef(contactSection)}>
                 Contact Us
               </span>
+            </li>
+            <li>
+              <Link className="privacyPolicyLink" to='/privacyPolicy'>
+              <span onClick={() => scrollToRef(contactSection)}>
+                Privacy Policy
+              </span>
+              </Link>
             </li>
           </ul>
         </div>
