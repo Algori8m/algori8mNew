@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import AboutSection from "../components/AboutSection/AboutSection";
 import Contactus from "../components/Contactus/Contactus";
+import Feature from "../components/Feature/Feature";
 import Footer from "../components/Footer/Footer";
 import HeroSection from "../components/HeroSection/HeroSection";
 import PreviousProjects from "../components/PreviousProjects/PreviousProjects";
@@ -17,6 +18,7 @@ function Home() {
 
   return (
     <>
+      <Feature />
       <HeroSection
         heroSection={heroSection}
         serviceSection={serviceSection}
