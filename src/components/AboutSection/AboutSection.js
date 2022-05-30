@@ -20,12 +20,12 @@ function AboutSection({aboutSection}) {
           We are committed to boosting your business's growth via digital tools.
         </p>
         <p className="aboutSectionVisionText">
-          Today, a large percentage of your customers are online, that's where they
+          Today, a large percentage of your potential customers are online, that's where they
           go when they need information about a product or service.
         </p>
         <p className="aboutSectionVisionText">
-          We understand this and that's why we are committed to help
-          get to where your potential customers/clients are.
+          We understand this and that's why we are committed to help you
+          get in front of your potential customers/clients.
         </p>
       </div>
 
