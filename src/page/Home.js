@@ -27,8 +27,8 @@ function Home() {
         portfolioSection={portfolioSection}
         techStackSection={techStackSection}
       />
-      <ServiceSection serviceSection={serviceSection} />
       <AboutSection aboutSection={aboutSection} />
+      <ServiceSection serviceSection={serviceSection} />
       <TechStack techStackSection={techStackSection} />
       <PreviousProjects portfolioSection={portfolioSection} />
       <Contactus contactSection={contactSection} />

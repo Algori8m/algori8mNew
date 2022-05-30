@@ -4,7 +4,7 @@ import "./aboutSection.css";
 function AboutSection({aboutSection}) {
   return (
     <section className="aboutSection" ref={aboutSection}>
-      <h2 className="aboutSectionTitle">About us</h2>
+      <h2 className="aboutSectionTitle">We Digitize Your Business</h2>
 
         <div className="aboutSectionAnimationInner">
                 <span className="aboutAnime aboutAnime1"></span>
@@ -15,14 +15,21 @@ function AboutSection({aboutSection}) {
 
 
       <div className="aboutSectionVision">
-        <p className="aboutSectionVisionTitle">OUR VISION</p>
+        <p className="aboutSectionVisionTitle"></p>
         <p className="aboutSectionVisionText">
-          To Provide the best digital and technological solutions for the best
-          of the present and future anticipated utopian world
+          We are committed to boosting your business's growth via digital tools.
+        </p>
+        <p className="aboutSectionVisionText">
+          Today, a large percentage of your potential customers are online, that's where they
+          go when they need information about a product or service.
+        </p>
+        <p className="aboutSectionVisionText">
+          We understand this and that's why we are committed to help you
+          get in front of your potential customers/clients.
         </p>
       </div>
 
-
+{/* 
       <div className="aboutSectionHistory">
         <p className="aboutSectionHistoryTitle">HISTORY</p>
         <ul className="aboutSectionHistoryText">
@@ -32,7 +39,7 @@ function AboutSection({aboutSection}) {
           <span></span>
           <li><b>2022</b> - Our team grows</li>
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 }

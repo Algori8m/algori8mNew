@@ -178,10 +178,12 @@ span.squareAnime1 {
 .heroSectionText {
   width: 100%;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 65px;
   font-weight: 500;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
   display: flex;
+  color: #122635;
+  font-weight: 700;
 }
 
 .heroSectionContactButton {
@@ -435,7 +437,8 @@ button.heroSectionContactButton:active {
     width: 100%;
     font-size: 35px;
     line-height: 50px;
-    font-weight: 500;
+    color: #122635;
+    font-weight: 600;
   }
 
   .heroSectionContactButton {

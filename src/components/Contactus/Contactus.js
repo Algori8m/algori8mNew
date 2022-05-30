@@ -3,26 +3,19 @@ import "./contactus.css";
 import { MdEmail, MdPhone } from "react-icons/md";
 import { FaTwitter, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
-function Contactus({contactSection}) {
+function Contactus({ contactSection }) {
   return (
     <section className="contactUs" ref={contactSection}>
       <h2 className="contactUsTitle">Contact Us</h2>
- 
+
       <ul className="contactUsList">
         <li>
-          <span>
-            <MdEmail />
-          </span>
-          <p>algori8m@gmail.com</p>
-        </li>
-        <li>
-        <a href="https://wa.me/message/6BB7JS45Y55XP1">
-
-          <span>
-            <FaWhatsapp />
-          </span>
-          <p>+234 8104450401</p>
-        </a>
+          <a href="https://wa.me/message/6BB7JS45Y55XP1">
+            <span>
+              <FaWhatsapp />
+            </span>
+            <p>+234 8104450401</p>
+          </a>
         </li>
 
         <li>
@@ -49,7 +42,12 @@ function Contactus({contactSection}) {
             <p>@algori8mtech</p>
           </a>
         </li>
-
+        <li>
+          <span>
+            <MdEmail />
+          </span>
+          <p>algori8m@gmail.com</p>
+        </li>
       </ul>
     </section>
   );

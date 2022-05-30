@@ -34,7 +34,7 @@ function HeroSection({
         <div className="heroSectionContent">
           <div className="heroSectionContentInfo">
             <p className="heroSectionText">
-              Boost Your Business Digital Presence & Build Loyal Customers.
+              Boosting Your Business Digital Presence & Building Loyal Customers.
             </p>
 
             <a className="heroSectionContactLink" href="https://wa.me/message/6BB7JS45Y55XP1">
